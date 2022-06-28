@@ -17,7 +17,7 @@ padding: 10px;
 // const chính của từng screen
 const TNDSScreen  = () => {
     const login = () => Alert.alert("hey") 
-const [value, setValue] = useState(null);
+    const [value, setValue] = useState(null);
     return (
         <View style={styles.container} >
 
@@ -35,30 +35,6 @@ const [value, setValue] = useState(null);
              {/* --------------------NỘI DUNG CHÍNH-------------------- */}
              <Main>
                 {/* Tạo list các thông tin cần điền */}
-
-                {/*1 --------------------HÃNG-------------------- */}
-                <Dropdown
-                style={styles.dropdown}
-                placeholderStyle={styles.placeholderStyle}
-                selectedTextStyle={styles.selectedTextStyle}
-                inputSearchStyle={styles.inputSearchStyle}
-                iconStyle={styles.iconStyle}
-                data={data1}
-                search
-                maxHeight={300}
-                labelField="label"
-                valueField="value"
-                placeholder="Hãng bảo hiểm"
-                searchPlaceholder="Tìm kiếm..."
-                value={value}
-                onChange={item => {
-                    setValue(item.value);
-                }}
-                
-                renderLeftIcon={() => (
-                    <AntDesign style={styles.icon} color="black" name="check" size={30} />
-                )}
-                ></Dropdown>
 
 
                 {/*2 --------------------LOẠI XE-------------------- */}
@@ -101,19 +77,11 @@ const [value, setValue] = useState(null);
     )
 } 
 
-const LabelInput = styled(View)`
-padding: 0px 7px 0px 7px ;
-`
 const ButtonVCX = styled(View)`
 padding: 30px ;
 `
 
-const data1 = [
-    { label: 'PVI - Bảo hiểm Dầu Khí', value: 'PVI' },
-    { label: 'VNI - Bảo hiểm Hàng Không', value: 'VNI' },
-    { label: 'MIC - Bảo hiểm Quân Đội', value: 'MIC' },
-    
-  ];
+
 
 const data2 = [
     { label: 'Xe 5 chỗ không kinh doanh vận tải', value: '1' },
@@ -143,7 +111,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         marginLeft: 50,
         marginRight: 50,
-        marginTop: 331
+        marginTop: 412
     },
     dropdown: {
         margin: 16,

@@ -1,10 +1,9 @@
 // imporot các thư viện cần sử dụng
 import * as React from 'react'
-import { Alert, View, Text } from 'react-native'
+import { View, Text } from 'react-native'
 import { StyleSheet } from 'react-native';
 import { Header } from 'react-native-elements';
 import styled from 'styled-components';
-import { useState } from 'react';
 import { Button } from 'react-native-elements';
 import { StatusBar } from 'expo-status-bar';
 // Border viền cho phần main hiển thị nội dung
