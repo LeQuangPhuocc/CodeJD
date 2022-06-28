@@ -116,18 +116,23 @@ const data1 = [
   ];
 
 const data2 = [
-    { label: 'Xe ô tô chở người', value: '1' },
-    { label: 'Xe bán tải, pickup', value: '2' },
-    { label: 'Xe tải', value: '3' },
-    { label: 'Xe đầu kéo', value: '4' },
+    { label: 'Xe 5 chỗ không kinh doanh vận tải', value: '1' },
+    { label: 'Xe 6-11 chỗ không kinh doanh vận tải', value: '2' },
+    { label: 'Xe dưới 25 chỗ không kinh doanh vận tải', value: '3' },
+    { label: 'Xe bán tải (Pickup) không kinh doanh vận tải', value: '4' },
+    { label: 'Xe 5 chỗ kinh doanh vận tải', value: '5' },
+    { label: 'Xe 7 chỗ  kinh doanh vận tải', value: '6' },
+    { label: 'Xe 8 chỗ  kinh doanh vận tải', value: '7' },
+    { label: 'Xe 16 chỗ kinh doanh vận tải', value: '8' },
+    { label: 'Xe 29 chỗ kinh doanh vận tải', value: '9' },
+    { label: 'Xe taxi 4-5 chỗ ', value: '10' },
+    { label: 'Xe chở hàng, xe tải dưới 3 tấn', value: '11' },
+    { label: 'Xe chở hàng, xe tải từ 3 tấn đến 8 tấn', value: '12' },
+    { label: 'Xe chở hàng, xe tải từ 8 tấn đến 15 tấn', value: '13' },
+    { label: 'Xe chở hàng, xe tải trên 15 tấn', value: '14' },
+    { label: 'Xe đầu kéo', value: '15' },
   ];
-  
-const data3 = [
-    { label: 'Xe không kinh doanh', value: '1' },
-    { label: 'Xe kinh doanh vận tải', value: '2' },
-    { label: 'Xe taxi', value: '3' },
-    
-  ];
+
 const styles = StyleSheet.create({
     container: {
       backgroundColor: 'white',
