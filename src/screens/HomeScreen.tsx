@@ -28,7 +28,7 @@ const HomeScreen: React.FC = () => {
                     component={HangScreen} />
         <Tab.Screen name="User" 
                     options={{tabBarIcon: () => <Text>🧑🏼‍💻</Text>}}
-                    component={UserScreen} />
+                    component={UserScreen} />         
       </Tab.Navigator>
   )
 }

@@ -98,7 +98,7 @@ const data2 = [
     { label: 'Xe chở hàng, xe tải từ 3 tấn đến 8 tấn', value: '12' },
     { label: 'Xe chở hàng, xe tải từ 8 tấn đến 15 tấn', value: '13' },
     { label: 'Xe chở hàng, xe tải trên 15 tấn', value: '14' },
-    { label: 'Xe đầu kéo', value: '15' },
+    { label: 'Xe đầu kéo', value: '15' }, 
   ];
 
 const styles = StyleSheet.create({

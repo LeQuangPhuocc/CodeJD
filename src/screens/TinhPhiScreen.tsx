@@ -37,14 +37,6 @@ const TinhPhiScreen  = () => {
 
                <Text>hey</Text>
 
-                {/*6 --------------------TÍNH PHÍ-------------------- */}
-                <ButtonVCX>
-
-                <Button
-                title="Tính phí"
-                buttonStyle={styles.buttonTinh}
-                />
-                </ButtonVCX>
 
                 {/*6 --------------------MUA NGAY-------------------- */}
                 <ButtonVCX>
@@ -66,16 +58,12 @@ const styles = StyleSheet.create({
       backgroundColor: 'white',
       height: 1000
     }, 
-    buttonTinh:{
-        backgroundColor: '#ffc107',
-        marginLeft: 50,
-        marginRight: 50,
-        marginTop: 331
-    },
+
     buttonMua:{
         backgroundColor: '#ffc107',
         marginLeft: 50,
         marginRight: 50,
+        marginTop: 431
     },
   });
 export default TinhPhiScreen
